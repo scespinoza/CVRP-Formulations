@@ -11,6 +11,7 @@ edge weight types.
 The class can be instanced using an url as follows:
 
 import cvrp
+
 instance = cvrp.CVRP.from_url('http://vrp.atd-lab.inf.puc-rio.br/media/com_vrp/instances/P/P-n16-k8.vrp')
 
 The class implements 4 formulations (MTZ-L, GG, BHM, MCF) that can be
