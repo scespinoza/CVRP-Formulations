@@ -17,9 +17,13 @@ The class implements 4 formulations (MTZ-L, GG, BHM, MCF) that can be
 accesed through the following methods:
 
 -.mtz()
+
 -.gg()
+
 -.bhm()
+
 -.mcf()
+
 
 These methods returns a docplex.mp.model.Model instance.
 
